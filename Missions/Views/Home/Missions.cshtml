@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Missions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+<link href="~/Content/Missions.css" rel="stylesheet" />
+
+
+
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Missions</h1>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                Choose your mission
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>@Html.ActionLink("Salt Lake City South Mission", "MissionFAQ", "Missions", new { mission = "SLC" }, null)</li>
+                <li>@Html.ActionLink("Mexico Guadalajara Mission", "MissionFAQ", "Missions", new { mission = "Mexico" }, null)</li>
+                <li>@Html.ActionLink("Australia Brisbane Mission", "MissionFAQ", "Missions", new { mission = "Australia" }, null)</li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+

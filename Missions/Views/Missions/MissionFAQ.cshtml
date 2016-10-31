@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "MissionFAQ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/MissionsFAQ.css" rel="stylesheet" />
+
+<div class="jumbotron">
+    <h1></h1>
+
+
+</div>
+    <ol class="breadcrumb">
+        <li>@Html.ActionLink("Missions", "Missions", "Home")</li>
+        <li>@ViewBag.Name</li>
+
+        </ol">
+
+        <h1>Frequently Asked Questions</h1>
+
+        <div>
+            <h3>@ViewBag.Name</h3>
+            <h4>Mission President: @ViewBag.President</h4>
+            <h4>Address: @ViewBag.StreetAddress</h4>
+            <h4>@ViewBag.CityStateZip</h4>
+            <h4>@ViewBag.Country</h4>
+            <h4>Language: @ViewBag.Language</h4>
+            <h4>Climate: @ViewBag.Climate</h4>
+            <h4>Dominate Religion: @ViewBag.Religion</h4>
+            <h4><img src="@ViewBag.MissionFlag" size="45" style=" width:300px; height:228px;" /></h4>
+
+            <p>Frequently Asked Questions</p>
+            <h5><b>Q: </b>Who should serve a mission?</h5>
+            <h5><b>A: </b>President Thomas S. Monson said: “We affirm that missionary work is a priesthood duty—and we encourage all young men who are worthy and who are physically able and mentally capable to respond to the call to serve. Many young women also serve, but they are not under the same mandate to serve as are the young men. We assure the young sisters of the Church, however, that they make a valuable contribution as missionaries, and we welcome their service.”</h5>
+            <form>
+                <p>Give your own answer to the question below.</p>
+                @Html.TextArea("Answer")
+                <input type="reset" value="Submit" />
+            </form><br />
+            <h5><b>Q: </b>How are missionaries called?</h5>
+            <h5><b>A: </b>Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church.</h5>
+            <form>
+                <p>Give your own answer to the question below.</p>
+                @Html.TextArea("Answer")
+                <input type="reset" value="Submit" />
+            </form><br />
+            <h5><b>Q: </b>How early can I submit my missionary papers?</h5>
+            <h5><b>A: </b>Recommendation papers for full-time service may be submitted to Church headquarters by a prospective missionary’s stake president 120 days prior to his or her availability date. Availability date is the earliest date at which the prospective missionary is available to begin his or her mission. The earliest date young men may enter the MTC is after graduating from high school or its equivalent and reaching 18 years of age. The earliest date women may enter the MTC is after their 19th birthday. Other influences on one's availability date may include completing a university semester, finishing an employment commitment, or stabilizing a medical condition. Speak with your priesthood leaders well before the 120 day submission window to start the recommendation process and to confirm your availability date. </h5>
+            <form>
+                <p>Give your own answer to the question below.</p>
+                @Html.TextArea("Answer")
+                <input type="reset" value="Submit" />
+            </form><br />
+            <h5><b>Q: </b>How do I know if I am worthy and able to serve a mission?</h5>
+            <h5><b>A: </b>Whether you have concerns about your worthiness or physical or emotional limitations, you should visit with your bishop or branch president. He will help you understand the eligibility requirements for missionary service.</h5>
+            <form>
+                <p>Give your own answer to the question below.</p>
+                @Html.TextArea("Answer")
+                <input type="reset" value="Submit" />
+            </form><br />
+            <h5><b>Q: </b>Do I have to meet physical requirements to serve a mission?</h5>
+            <h5><b>A: </b>Yes. Physical health is an important part of missionary service. A missionary must be able to walk an average of six miles (10 km) per day and ride a bicycle 12 miles (19 km) per day. Weight guidelines exist for prospective missionaries. Talk to your bishop or branch president for more information or if you are concerned about the physical requirements for missionaries.</h5>
+            <form>
+                <p>Give your own answer to the question below.</p>
+                @Html.TextArea("Answer")
+                <input type="reset" value="Submit" />
+            </form><br />
+
+
+            <form>
+                <h3>Post a question of your own here.</h3>
+                @Html.TextArea("Answer")
+                <input type="reset" value="Submit" />
+            </form>
+
+        </div>
+
+
+

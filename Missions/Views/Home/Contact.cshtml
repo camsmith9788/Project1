@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<link href="~/Content/Contact.css" rel="stylesheet" />
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 style="font-size:60px;">Contact Us</h1>
+
+            <address>
+                116 W. Center St.<br />
+                Provo, UT 84601<br />
+                801.435.9874
+            </address>
+
+            <h2>Have questions? Ask us below.</h2>
+        </div>
+        <div class="col-lg-6">
+            <img src="http://universe.byu.edu/wp-content/uploads/2013/06/MTCDevotional_01.jpg" 45" style="width:300px; height:228px;" />
+
+        </div>
+    </div>
+</div>
+
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+            <label for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        </div>
+        <div class="row">
+            <label for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        </div>
+        <div class="row">
+            <label for="subject">Subject:</label><br />
+            <select>
+                <option value="AddMission">Add A Mission</option>
+                <option value="Support">Support</option>
+                <option value="suggestions">Website Suggestions</option>
+                <option value="questions">General Questions</option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="message">Your message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        </div>
+    <br />
+        <input id="submit_button" type="submit" value="Send email" />
+    </form><br /><br /> 
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24360.10439573527!2d-111.6428693!3d40.2532413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d975497f9ce11%3A0x89cb2a536094caa6!2s116+Center+St%2C+Provo%2C+UT+84601!5e0!3m2!1sen!2sus!4v1477847923686" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+

@@ -1,0 +1,39 @@
+﻿
+
+body{
+    background-color:darkgrey;
+}
+
+#jumbotron {
+   background: url('http://bloximages.chicago2.vip.townnews.com/heraldextra.com/content/tncms/assets/v3/editorial/7/cc/7ccb8ee0-50af-530e-a3ad-ed235eb2b8a7/5401493ea3016.image.jpg?resize=540%2C330') no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    color:darkgrey;
+}
+
+.wholepage{
+    background-color:blue;
+}
+
+.jumbotron {
+   background: url('http://bloximages.chicago2.vip.townnews.com/heraldextra.com/content/tncms/assets/v3/editorial/7/cc/7ccb8ee0-50af-530e-a3ad-ed235eb2b8a7/5401493ea3016.image.jpg?resize=540%2C330') no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    text-align:center;
+    align-content:center;
+    color: black;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+h1{
+    text-align:center;
+}
