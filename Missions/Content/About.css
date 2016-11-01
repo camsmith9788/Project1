@@ -1,14 +1,12 @@
 ﻿body {
     background-color:darkgrey;
 }
-#jumbotron{
-    background:black;
-    align-content:center;
-    color:white;
-}
+
+
+
 
 .jumbotron {
-   background: url('https://www.lds.org/bc/content/ldsorg/church/580missionaries-on%20bikes.jpeg') no-repeat center center;
+   background: url('http://mormonbeliefs.org/files/2008/06/mormon-missionaries-elders.jpg') no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;

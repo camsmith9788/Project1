@@ -14,22 +14,14 @@ h2{
 }
 
 
-
-#jumbotron {
-  background: url('https://missionary.lds.org/clothing/bc/o/elder/clothing/slacks/elders-03-slacks-banner-1.jpg') no-repeat center center; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-}
-
 .jumbotron {
   background-image: url('https://missionary.lds.org/clothing/bc/o/elder/guidelines/elders-general-guidelines-20.jpg');
-   background-position: 0% 25%;
+   
   background-size: cover;
+  background-position: 0% 25%;
   background-repeat: no-repeat;
   color: black;
-  text-shadow: black 0.3em 0.3em 0.3em;
+  
 }
 
 .wrapper {

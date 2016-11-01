@@ -1,5 +1,18 @@
 ﻿body {
+    background-color:lightblue;
+}
+
+.jumbotron{
+    background-image: url('https://mccchicago.org/wp-content/uploads/2016/06/CONTACT-US-BUTTON.png');
+    display: flex;
+   background-size: cover;
+   height: 15em;
+   background-repeat: no-repeat;
     
+}
+#totalpage{
+    
+    text-align:left;
 }
 
 
